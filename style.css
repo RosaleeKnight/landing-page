@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: #000000
+}
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.header-logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+ul {
+    color: #e5e7eb;
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 12px;
+    gap: 15px;
+}
