@@ -81,7 +81,7 @@ button {
     border-radius: 10px;
 }
 
-.section1-right{
+.section1-right {
     color: #f9faf8;
     background-color:#808080;
     width: 500px;
@@ -92,4 +92,51 @@ button {
     margin-top: 80px;
     padding-top: 100px;
     margin-bottom: 100px;
+}
+
+.section2 {
+    background-color: #ffffff;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    gap: 75px;
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 50px;
+}
+
+.section2-top {
+    display: flex;
+    align-self: center;
+    height: 50px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.section2-bottom {
+    display:flex;
+    align-content: space-between;
+    justify-content: center;
+    gap: 100px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100px;
+    color: #808080;
+    gap: 15px;
+}
+
+.placeholder {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    border-radius: 5px;
+    border-color: #3882f6;
+    border-style: solid;
 }
