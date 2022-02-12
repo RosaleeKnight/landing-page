@@ -11,11 +11,11 @@ body {
     display: flex;
     align-content: space-between;
     justify-content: space-between;
-    padding-left: 255px;
-    padding-right: 255px;
+    padding-left: 210px;
+    padding-right: 210px;
     margin-top: 0px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .header-logo {
@@ -43,14 +43,14 @@ ul {
     justify-content: center;
     gap: 75px;
     margin-top: 0px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
     padding-top: 50px;
 }
 
 .section1-left {
     width: 500px;
-    height: 500px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
@@ -76,7 +76,9 @@ ul {
 button {
     background-color: #3882f6;
     color: #f9faf8;
+    width: 100px;
     margin-top: 10px;
+    border-radius: 10px;
 }
 
 .section1-right{
