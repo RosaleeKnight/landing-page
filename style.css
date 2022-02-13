@@ -6,13 +6,20 @@ body {
     font-family: roboto, serif;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: none;
+    width: 1800px;
+}
+
 .header {
     background-color: #1f2937;
     display: flex;
     align-content: space-between;
     justify-content: space-between;
-    padding-left: 210px;
-    padding-right: 210px;
+    padding-left: 180px;
+    padding-right: 180px;
     margin-top: 0px;
     margin-left: 200px;
     margin-right: 200px;
