@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-shrink: 1;
+    margin: 0;
 }
 
 .header {
@@ -17,6 +18,7 @@ body {
     align-content: space-between;
     justify-content: center;
     gap: 450px;
+    margin: 0;
 
 }
 
@@ -43,6 +45,7 @@ ul {
     justify-content: center;
     gap: 25px;
     padding-top: 50px;
+    margin: 0;
 }
 
 .section1-left {
@@ -99,7 +102,7 @@ button {
     align-content: space-between;
     justify-content: center;
     gap: 75px;
-    margin-top: 0px;
+    margin: 0px;
     padding-top: 50px;
 }
 
@@ -141,7 +144,7 @@ button {
     height: 325px;
     display: flex;
     flex-direction: column;
-    margin-top: 0px;
+    margin: 0px;
     padding-top: 50px;
 }
 
@@ -172,7 +175,7 @@ button {
     display: flex;
     align-content: center;
     justify-content: center;
-    margin-top: 0px;
+    margin: 0px;
     padding-top: 100px;
 }
 
@@ -219,4 +222,5 @@ button {
     justify-content: center;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin: 0;
 }
