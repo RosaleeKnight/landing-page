@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    margin: none;
     background-color: #000000;
     font-family: roboto, serif;
 }
@@ -9,20 +8,16 @@ body {
 .container{
     display: flex;
     flex-direction: column;
-    flex-shrink: none;
-    margin: 0px;
+    flex-shrink: 1;
 }
 
 .header {
     background-color: #1f2937;
     display: flex;
     align-content: space-between;
-    justify-content: space-between;
-    padding-left: 180px;
-    padding-right: 180px;
-    margin-top: 0px;
-    margin-left: 200px;
-    margin-right: 200px;
+    justify-content: center;
+    gap: 450px;
+
 }
 
 .header-logo {
@@ -30,7 +25,6 @@ body {
     font-size: 24px;
     font-weight: bold;
     padding-top: 15px;
-    margin: 0px;
 }
 
 ul {
@@ -38,7 +32,6 @@ ul {
     font-size: 18px;
     list-style-type: none;
     display: flex;
-    margin: 0px;
     padding-top: 15px;
     gap: 15px;
 }
@@ -49,9 +42,6 @@ ul {
     align-content: space-between;
     justify-content: center;
     gap: 25px;
-    margin-top: 0px;
-    margin-left: 200px;
-    margin-right: 200px;
     padding-top: 50px;
 }
 
@@ -62,7 +52,7 @@ ul {
     flex-direction: column;
     align-content: flex-start;
     gap: 25;
-    padding-top: 80px;
+    padding-top: 30px;
 }
 
 .main-text {
@@ -70,14 +60,12 @@ ul {
     font-size: 48px;
     font-weight: bold;
     display: flex;
-    margin: 0px;
 }
 
 .sub-text {
     color: #e5e7eb;
     font-size: 18px;
     display: flex;
-    margin-top: 0px;
 }
 
 button {
@@ -93,14 +81,14 @@ button {
 .section1-right {
     color: #f9faf8;
     background-color:#808080;
-    width: 500px;
-    height: 120px;
+    width: 350px;
+    height: 250px;
     font-size: 18px;
     display: flex;
+    flex-direction: column;
+    align-self: flex-start;
     justify-content: center;
-    margin-top: 80px;
-    padding-top: 100px;
-    margin-bottom: 100px;
+    padding-left: 75px;
 }
 
 .section2 {
@@ -112,8 +100,6 @@ button {
     justify-content: center;
     gap: 75px;
     margin-top: 0px;
-    margin-left: 200px;
-    margin-right: 200px;
     padding-top: 50px;
 }
 
@@ -156,8 +142,6 @@ button {
     display: flex;
     flex-direction: column;
     margin-top: 0px;
-    margin-left: 200px;
-    margin-right: 200px;
     padding-top: 50px;
 }
 
@@ -166,12 +150,12 @@ button {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
     align-self: center;
+    justify-self: center;
     padding-top: 50px;
-    padding-left: 300px;
-    padding-right: 300px;
 }
 
 .section3-bottom {
@@ -189,8 +173,6 @@ button {
     align-content: center;
     justify-content: center;
     margin-top: 0px;
-    margin-left: 200px;
-    margin-right: 200px;
     padding-top: 100px;
 }
 
@@ -234,9 +216,6 @@ button {
     color: #f9faf8;
     font-size: 20px;
     display: flex;
-    margin-top: 0px;
-    margin-left: 200px;
-    margin-right: 200px;
     justify-content: center;
     padding-top: 40px;
     padding-bottom: 40px;
