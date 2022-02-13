@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-shrink: none;
-    width: 1800px;
+    margin: 0px;
 }
 
 .header {
@@ -48,7 +48,7 @@ ul {
     display: flex;
     align-content: space-between;
     justify-content: center;
-    gap: 75px;
+    gap: 25px;
     margin-top: 0px;
     margin-left: 200px;
     margin-right: 200px;
