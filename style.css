@@ -79,7 +79,7 @@ button {
     width: 100px;
     margin-top: 10px;
     border-radius: 10px;
-    border-color: #ffffff;
+    border-color: #f9faf8;
     border-style: solid;
 }
 
@@ -97,7 +97,7 @@ button {
 }
 
 .section2 {
-    background-color: #ffffff;
+    background-color: #f9faf8;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -176,7 +176,7 @@ button {
 }
 
 .section4 {
-    background-color: #ffffff;
+    background-color: #f9faf8;
     height: 250px;
     display: flex;
     align-content: center;
@@ -207,7 +207,8 @@ button {
 .section4-main-left-top {
     display: flex;
     align-self: flex-start;
-    color: #ffffff;
+    color: #f9faf8;
+    font-weight: bold;
 }
 
 .section4-main-left-bottom {
@@ -219,4 +220,17 @@ button {
 .section4-main-right {
     display: flex;
     align-self: center;
+}
+
+.section5 {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 20px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
