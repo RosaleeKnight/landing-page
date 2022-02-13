@@ -120,7 +120,8 @@ button {
     display:flex;
     align-content: space-between;
     justify-content: center;
-    gap: 100px;
+    gap: 150px;
+    padding-bottom: 50px;
 }
 
 .information {
@@ -139,4 +140,35 @@ button {
     border-radius: 5px;
     border-color: #3882f6;
     border-style: solid;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 50px;
+}
+
+.section3-top {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.section3-bottom {
+    display: flex;
+    align-self: flex-end;
+    font-weight: bold;
+    padding-right: 300px;
 }
