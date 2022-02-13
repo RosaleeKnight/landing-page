@@ -79,6 +79,8 @@ button {
     width: 100px;
     margin-top: 10px;
     border-radius: 10px;
+    border-color: #ffffff;
+    border-style: solid;
 }
 
 .section1-right {
@@ -118,7 +120,6 @@ button {
 
 .section2-bottom {
     display:flex;
-    align-content: space-between;
     justify-content: center;
     gap: 150px;
     padding-bottom: 50px;
@@ -170,5 +171,52 @@ button {
     display: flex;
     align-self: flex-end;
     font-weight: bold;
+    font-size: 20px;
     padding-right: 300px;
+}
+
+.section4 {
+    background-color: #ffffff;
+    height: 250px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 100px;
+}
+
+.section4-main {
+    background-color: #3882f6;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    gap: 75px;
+    padding: 50px 100px;
+}
+
+.section4-main-left {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.section4-main-left-top {
+    display: flex;
+    align-self: flex-start;
+    color: #ffffff;
+}
+
+.section4-main-left-bottom {
+    display: flex;
+    align-self: flex-start;
+    color: #e5e7eb;
+}
+
+.section4-main-right {
+    display: flex;
+    align-self: center;
 }
